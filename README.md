@@ -16,12 +16,15 @@ Initially, we had several subroutines that created new headers, ran code that sh
 ## Results\
 \
 The first difference between the original code we used to calculate yearly return for the stocks was to include a ticker index in the refactored code:\
+\
 ```\
 Dim tickerVolumes(12) As Long\
 Dim tickerStartingPrices(12) As Single\
 Dim tickerEndingPrices(12) As Single\
 ```\
+\
 We then had to make sure to loop through all the rows in the spreadsheet data after initializing the tickerVolumes to zero:\
+\
 ```\
 '2a- Create a For loop to initialize the tickerVolumes to zero\
 For i = 0 To 11\
@@ -36,21 +39,26 @@ For i = 2 To RowCount\
 '3a- Increase volume for current ticker\
     tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value\
 ```\
+\
 The main difference here, compared to before we refactored the code, is that we are now looping every row in the spreadsheet instead of the specific stocks we were looking for. How would this affect the time it took to run the code? Let\'92s take a look.\
 \
 Here is the time it took for each year before we refactored the code.\
 For 2017:\
+\
 ![2017_initial_timer.png](/resources/2017_initial_timer.png)\
 \
 For 2018:\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 ![2018_initial_timer.png](/resources/2018_initial_timer.png)\
+\
+![2018_initial_timer.png](/resources/2018_initial_timer.png)\
 \
 Now, here is the timer for the refactored code.\
+\
 For 2017:\
+\
 ![VBA_Challenge_2017.png](/resources/VBA_Challenge_2017.png)\
 \
 For 2018:\
+\
 ![VBA_Challenge_2018.png](/resources/VBA_Challenge_2018.png)\
 \
 Although we are able to gain more information from the refactored code, it takes the code longer to run. Twice as long in fact!\
@@ -58,19 +66,20 @@ Although we are able to gain more information from the refactored code, it takes
 Here are the results for 2017 and 2018 respectively. It\'92s immediately apparent that 2017 was a more successful year than 2018 thanks to our formatting.\
 \
 2017:\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 ![VBA_Challenge_2017_Results.png](/resources/VBA_Challenge_2017.png)\
+\
+![VBA_Challenge_2017_Results.png](/resources/VBA_Challenge_2017.png)\
 \
 2018:\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 ![VBA_Challenge_2018_Results.png](/resources/VBA_Challenge_2018.png)\
+\
+![VBA_Challenge_2018_Results.png](/resources/VBA_Challenge_2018.png)\
 \
 \
 ##In Summary\
 \
 - **What are the advantages or disadvantages of refactoring code?**\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f1\i * *
+\f1\i \cf0 * *
 \f0\i0 Refactoring the code allows us to run one single script to analyze the yearly return of all stocks for 2017 and 2018. However, the code may seem much more confusing at first glance. And in terms of efficiency, the code does run twice as long, even if it is just by a quarter of a second.* *\
 \
 - **How do these pros and cons apply to refactoring the original VBA script?**\
