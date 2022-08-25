@@ -60,11 +60,11 @@ Here are the results for 2017 and 2018 respectively. It’s immediately apparent
 
 2017:
 
-![VBA_Challenge_2017_Results.png](/Resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2017_Results.png](/Resources/VBA_Challenge_2017_Results.png)
 
 2018:
 
-![VBA_Challenge_2018_Results.png](/Resources/VBA_Challenge_2018.png)
+![VBA_Challenge_2018_Results.png](/Resources/VBA_Challenge_2018_Results.png)
 
 
 ##In Summary
