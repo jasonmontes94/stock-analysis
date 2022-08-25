@@ -38,21 +38,21 @@ The main difference here, compared to before we refactored the code, is that we 
 Here is the time it took for each year before we refactored the code.
 For 2017:
 
-![2017_initial_timer.png](/resources/2017_initial_timer.png)
+![2017_initial_timer.png](/Resources/2017_initial_timer.png)
 
 For 2018:
 
-![2018_initial_timer.png](/resources/2018_initial_timer.png)
+![2018_initial_timer.png](/Resources/2018_initial_timer.png)
 
 Now, here is the timer for the refactored code.
 
 For 2017:
 
-![VBA_Challenge_2017.png](/resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2017.png](/Resources/VBA_Challenge_2017.png)
 
 For 2018:
 
-![VBA_Challenge_2018.png](/resources/VBA_Challenge_2018.png)
+![VBA_Challenge_2018.png](/Resources/VBA_Challenge_2018.png)
 
 Although we are able to gain more information from the refactored code, it takes the code longer to run. Twice as long in fact!
 
@@ -60,11 +60,11 @@ Here are the results for 2017 and 2018 respectively. It’s immediately apparent
 
 2017:
 
-![VBA_Challenge_2017_Results.png](/resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2017_Results.png](/Resources/VBA_Challenge_2017.png)
 
 2018:
 
-![VBA_Challenge_2018_Results.png](/resources/VBA_Challenge_2018.png)
+![VBA_Challenge_2018_Results.png](/Resources/VBA_Challenge_2018.png)
 
 
 ##In Summary
