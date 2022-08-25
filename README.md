@@ -67,7 +67,7 @@ Here are the results for 2017 and 2018 respectively. It’s immediately apparent
 ![VBA_Challenge_2018_Results.png](/Resources/VBA_Challenge_2018_Results.png)
 
 
-##In Summary
+## In Summary
 
 - **What are the advantages or disadvantages of refactoring code?**
 * *Refactoring the code allows us to run one single script to analyze the yearly return of all stocks for 2017 and 2018. However, the code may seem much more confusing at first glance. And in terms of efficiency, the code does run twice as long, even if it is just by a quarter of a second.* *
