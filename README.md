@@ -69,8 +69,8 @@ Here are the results for 2017 and 2018 respectively. It’s immediately apparent
 
 ## In Summary
 
-- **What are the advantages or disadvantages of refactoring code?**
+**What are the advantages or disadvantages of refactoring code?**
 * *Refactoring the code allows us to run one single script to analyze the yearly return of all stocks for 2017 and 2018. However, the code may seem much more confusing at first glance. And in terms of efficiency, the code does run twice as long, even if it is just by a quarter of a second.* *
 
-- **How do these pros and cons apply to refactoring the original VBA script?**
+**How do these pros and cons apply to refactoring the original VBA script?**
 * *If we are looking at much larger data sets, the efficiency of the code may decline with the refactored code.  It also took much more time to write and debug. By including the tickerIndex for the tickerVolume, there were many steps along the way that would allow for mistakes. However, once completed, the refactored code gives Steve all the information he needs to make safe decisions in purchasing stock from year to year!* *
